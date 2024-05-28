@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6 text-center mb-4">
+            <img src="~/img/072120-ToDoList-Blog-removebg-preview.png" alt="Todo List Image" class="img-fluid rounded">
+        </div>
+        <div class="col-md-8 text-center">
+            <h1 class="display-4 font-weight-bold">Welcome! New challenges?</h1>
+            <p class="lead text-muted">Write down your tasks so you don't forget!</p>
+            <p>Keep track of your tasks and achieve more with our TODO List.</p>
+            <p>Don't forget about deadlines.</p>
+            <p class="mt-4"><a href="@Url.Action("Index", "Todoitems")" class="btn btn-primary btn-lg">Get Started Now</a></p>
+        </div>
+    </div>
+</div>
